@@ -1,4 +1,4 @@
-# 201-Reading-Note
+# Code 201 Reading Notes
 
 |Class number | URL |
 --------------|-------
