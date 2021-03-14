@@ -194,7 +194,7 @@ Note that the distinction between these all have to do with their handling of pr
  we can use these logical operators in the exprestions 
  Ex: (a>b)&&(c<d)
 
-[Logical Operators](https://media.geeksforgeeks.org/wp-content/uploads/Operators.png)
+![Logical Operators](https://media.geeksforgeeks.org/wp-content/uploads/Operators.png)
 
 **IF statment**
 Very often when you write code, you want to perform different actions for different decisions.
