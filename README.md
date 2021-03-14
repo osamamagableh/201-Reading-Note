@@ -3,7 +3,7 @@
 |Class number | URL |
 --------------|-------
 | class 1 |  [class01](https://osamamagableh.github.io/201-Reading-Note/class01)|
-| class 2 |   2 |
+| class 2 |  [class02](https://osamamagableh.github.io/201-Reading-Note/class02) |
 | class 3 |  3  |
 | class 4 |  4  |
 | class 5 |  5  |
