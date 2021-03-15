@@ -7,29 +7,35 @@ we have three different type of list in HTML :
 
 **Syntax**
 1. Ordedrd list :
+```
 <ol>
   <li>item1</li>
   <li>item2</li>
   <li>item3</li>
 </ol>
+```
 
 2. UnOrderd list :
+```
 <ul>
   <li>item1</li>
   <li>item2</li>
   <li>item3</li>
 </ul>
+```
 
 3. Definition lists
+```
 <dl>
   <dt>item1</dt>
   <dd>discription</dd>
   <dt>item2</dt>
   <dd>discription</dd>
 </dl>
-
+```
 **also we can use Nested Lists :
 ex : 
+```
 <ul>
     <li>Mousses</li>
     <li>Pastries
@@ -42,6 +48,7 @@ ex :
     </li>
     <li>Tarts</li>
 </ul>
+```
 this Example show us the output for lists:
 
 ![List](https://www.dummies.com/wp-content/uploads/280304.image0.jpg);
@@ -94,6 +101,7 @@ page at all (although a user could still see the content of the box if they used
 in their browser).
 
 this Example contant what we can do in boxes :
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -162,7 +170,7 @@ the Fender Rhodes, Wurlitzer EP200, and Hohner Clavinet.
 </div>
 </body>
 </html>
-
+```
 ## chapter 2 and 4 : JS
 
 ### SWITCH STATEMENTS
@@ -171,6 +179,7 @@ A switch statement starts with a variable called the switch value. Each case ind
 value for this variable and the code that should run if the variable matches that value.
 
 **Syntax**
+```
 switch(expression) {
   case x:
     // code block
@@ -181,7 +190,7 @@ switch(expression) {
   default:
     // code block
 }
-
+```
 **How does it work**
 1. The switch expression is evaluated once
 2. The value of the expression is compared with the values of each case.
@@ -189,6 +198,7 @@ switch(expression) {
 4. If there is no match, the default code block is executed.
 
 Example :
+```
 switch (new Date().getDay()) {
   case 0:
     day = "Sunday";
@@ -211,7 +221,7 @@ switch (new Date().getDay()) {
   case 6:
     day = "Saturday";
 }
-
+```
 JavaScript is said to use weak typing because the data type for a value can change. Some
 other languages require that you specify what data type each variable will be. They are
 said to use strong typing.
@@ -234,6 +244,7 @@ do {
 while (condition);
 
 Example of loop :
+```
 let i = 1;
 const n = 5;
 // do...while loop from 1 to 5
@@ -242,4 +253,4 @@ do {
     i++;
 } while(i <= n);
 
-
+```
