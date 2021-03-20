@@ -7,7 +7,7 @@
 | class 3 |  [calss03](https://osamamagableh.github.io/201-Reading-Note/class03)  |
 | class 4 |  [class04](https://osamamagableh.github.io/201-Reading-Note/class04)  |
 | class 5 |  [class05](https://osamamagableh.github.io/201-Reading-Note/class05)  |
-| class 6 |  6 |
+| class 6 |  [class06](https://osamamagableh.github.io/201-Reading-Note/class06) |
 | class 7 |  7 |
 | class 8 |  8  |
 | class 9 |  9  |
