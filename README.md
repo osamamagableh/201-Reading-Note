@@ -9,7 +9,7 @@
 | class 5 |  [class05](https://osamamagableh.github.io/201-Reading-Note/class05)  |
 | class 6 |  [class06](https://osamamagableh.github.io/201-Reading-Note/class06) |
 | class 7 |  [class07](https://osamamagableh.github.io/201-Reading-Note/class07) |
-| class 8 |  8  |
+| class 8 |  [class08](https://osamamagableh.github.io/201-Reading-Note/class08) |
 | class 9 |  9  |
 | class 10 |  10  |
 | class 11 |  11  |
