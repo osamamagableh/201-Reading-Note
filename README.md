@@ -15,5 +15,5 @@
 | class 11 | [class11](https://osamamagableh.github.io/201-Reading-Note/class11)  |
 | class 12 | [class12](https://osamamagableh.github.io/201-Reading-Note/class12)  |
 | class 13 | [class13](https://osamamagableh.github.io/201-Reading-Note/class13)  |
-| class 14 |  14  |
-| class 15 |  15  |
+| class 14a | [class14a](https://osamamagableh.github.io/201-Reading-Note/class14a)  |
+| class 14b | [class14b](https://osamamagableh.github.io/201-Reading-Note/class14b)  |
