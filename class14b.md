@@ -1,115 +1,16 @@
-# Transform 
+# What Google Learned From Its Quest to Build the Perfect Team
 
-With CSS3 came new ways to position and alter elements. Now general layout techniques can be revisited with alternative ways to size, position, and change elements. All of these new techniques are made possible by the transform property.
+ike most 25-year-olds, Julia Rozovsky wasn’t sure what she wanted to do with her life. She had worked at a consulting firm, but it wasn’t a good match. Then she became a researcher for two professors at Harvard, which was interesting but lonely. Maybe a big corporation would be a better fit. Or perhaps a fast-growing start-up. All she knew for certain was that she wanted to find a job that was more social. ‘‘I wanted to be part of a community, part of something people were building together,’’ she told me. She thought about various opportunities — Internet companies, a Ph.D. program — but nothing seemed exactly right. So in 2009, she chose the path that allowed her to put off making a decision: She applied to business schools and was accepted by the Yale School of Management.
+![img](https://static01.nyt.com/images/2016/02/28/magazine/28mag-teams3/28mag-teams3-superJumbo.jpg?quality=90&auto=webp)
 
-The transform property comes in two different settings, two-dimensional and three-dimensional. Each of these come with their own individual properties and values.
+When Rozovsky arrived on campus, she was assigned to a study group carefully engineered by the school to foster tight bonds. Study groups have become a rite of passage at M.B.A. programs, a way for students to practice working in teams and a reflection of the increasing demand for employees who can adroitly navigate group dynamics. A worker today might start the morning by collaborating with a team of engineers, then send emails to colleagues marketing a new brand, then jump on a conference call planning an entirely different product line, while also juggling team meetings with accounting and the party-planning committee. To prepare students for that complex world, business schools around the country have revised their curriculums to emphasize team-focused learning.
 
-Within this lesson we’ll take a look at both two-dimensional and three-dimensional transforms. Generally speaking, browser support for the transform property isn’t great, but it is getting better every day. For the best support vendor prefixes are encouraged, however you may need to download the nightly version of Chrome to see all of these transforms in action.
+Every day, between classes or after dinner, Rozovsky and her four teammates gathered to discuss homework assignments, compare spreadsheets and strategize for exams. Everyone was smart and curious, and they had a lot in common: They had gone to similar colleges and had worked at analogous firms. These shared experiences, Rozovsky hoped, would make it easy for them to work well together. But it didn’t turn out that way. ‘‘There are lots of people who say some of their best business-school friends come from their study groups,’’ Rozovsky told me. ‘‘It wasn’t like that for me.’’
 
-**Transform Syntax**
-The actual syntax for the transform property is quite simple, including the transform property followed by the value. The value specifies the transform type followed by a specific amount inside parentheses.
+ 
+* In 2012, the company embarked on an initiative — code-named Project Aristotle — to study hundreds of Google’s teams and figure out why some stumbled while others soared. Dubey, a leader of the project, gathered some of the company’s best statisticians, organizational psychologists, sociologists and engineers. He also needed researchers. Rozovsky, by then, had decided that what she wanted to do with her life was study people’s habits and tendencies. After graduating from Yale, she was hired by Google and was soon assigned to Project Aristotle.*
 
-div {
-  -webkit-transform: scale(1.5);
-     -moz-transform: scale(1.5);
-       -o-transform: scale(1.5);
-          transform: scale(1.5);
-}
+**the technology industry**
+ is not just one of the fastest growing parts of our economy; it is also increasingly the world’s dominant commercial culture. And at the core of Silicon Valley are certain self-mythologies and dictums: Everything is different now, data reigns supreme, today’s winners deserve to triumph because they are cleareyed enough to discard yesterday’s conventional wisdoms and search out the disruptive and the new.
 
-
-**2D Transforms**
-Elements may be distorted, or transformed, on both a two-dimensional plane or a three-dimensional plane. Two-dimensional transforms work on the x and y axes, known as horizontal and vertical axes. Three-dimensional transforms work on both the x and y axes, as well as the z axis. These three-dimensional transforms help define not only the length and width of an element, but also the depth. We’ll start by discussing how to transform elements on a two-dimensional plane, and then work our way into three-dimensional transforms.
-
-HTML
-<figure class="box-1">Box 1</figure>
-<figure class="box-2">Box 2</figure>
-              
-CSS
-box-1 {
-  transform: rotate(20deg);
-}
-.box-2 {
-  transform: rotate(-55deg);
-}
-
-![transform](https://www.w3schools.com/css/transform_scale.gif)
-
-# transition and animation
-
-One evolution with CSS3 was the ability to write behaviors for transitions and animations. Front end developers have been asking for the ability to design these interactions within HTML and CSS, without the use of JavaScript or Flash, for years. Now their wish has come true.
-
-With CSS3 transitions you have the potential to alter the appearance and behavior of an element whenever a state change occurs, such as when it is hovered over, focused on, active, or targeted.
-
-Animations within CSS3 allow the appearance and behavior of an element to be altered in multiple keyframes. Transitions provide a change from one state to another, while animations can set multiple points of transition upon different keyframes.
-
-
-**Transition Duration**
-The duration in which a transition takes place is set using the transition-duration property. The value of this property can be set using general timing values, including seconds (s) and milliseconds (ms). These timing values may also come in fractional measurements, .2s for example.
-
-When transitioning multiple properties you can set multiple durations, one for each property. As with the transition-property property value, multiple durations can be declared using comma separated values. The order of these values when identifying individual properties and durations does matter. For example, the first property identified within the transition-property property will match up with the first time identified within the transition-duration property, and so forth.
-
-If multiple properties are being transitioned with only one duration value declared, that one value will be the duration of all the transitioned properties.
-
-box {
-  background: #2db34a;
-  border-radius: 6px;
-  transition-property: background, border-radius;
-  transition-duration: .2s, 1s;
-  transition-timing-function: linear;
-}
-.box:hover {
-  background: #ff7b29;
-  border-radius: 50%;
-}
-CSS3 has introduced countless possibilities for UX designers, and the best thing about them is that the coolest parts are really simple to implement.
-
-Just a couple of lines of code will give you an awesome transition effect that will excite your users, increase engagement and ultimately, when used well, increase your conversions. What’s more, these effects are hardware accelerated, and a progressive enhancement that you can use right now.
-
-Here are 8 really simple effects that will add life to your UI and smiles to your users’ faces.
-
-All of these effects (bar one) are controlled with the transition property. So we can see these effects working, we’ll set up a div in an HTML page:
-
-<html>
-<head>
-    <style type="text/css">
-    </style>
-</head>
-<body>
-    <div></div>
-</body>
-</html>
-Having done so, set its width and height (so it has dimensions), its background color (so we can see it) and its transition property.
-
-<style type="text/css">
-body > div
-{
-            width:483px;
-            height:298px;
-            background:#676470;
-            transition:all 0.3s ease;
-}
-</style>
-
-**Rotate elements**
-CSS transforms have a number of different uses, and one of the best is transforming the rotation of an element. Give your div the class “rotate” and add the following to your CSS:
-
-.rotate:hover
-{
-        -webkit-transform: rotateZ(-30deg);
-        -ms-transform: rotateZ(-30deg);
-        transform: rotateZ(-30deg);
-}
-
-**Square to circle**
-A really popular effect at the moment is transitioning a square element into a round one, and vice versa. With CSS, it’s a simple effect to achieve, we just transition the border-radius property.
-
-Give your div the class “circle” and add this CSS to your styles:
-
-.circle:hover
-{
-        border-radius:50%;
-}
-
-![img](https://miro.medium.com/max/700/1*_NVMTnvHTM9teQxrVRlDeg.png)
-
-
+The paradox, of course, is that Google’s intense data collection and number crunching have led it to the same conclusions that good managers have always known. In the best teams, members listen to one another and show sensitivity to feelings and needs
